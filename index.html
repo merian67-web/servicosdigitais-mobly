@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mobly - Móveis e decoração para transformar sua casa. Compre online com segurança, entrega para todo o Brasil e as melhores marcas.">
+  <meta name="keywords" content="móveis, decoração, mobly, sofá, cama, mesa, cadeira, casa, home living">
+  <meta name="author" content="Mobly Comércio Varejista LTDA">
+  <title>Mobly | Móveis e Decoração para sua Casa</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome 6 (ícones interativos e visíveis) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVEGAÇÃO ===== -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#" class="logo" aria-label="Mobly - Página inicial">
+        <span class="logo__icon"><i class="fa-solid fa-couch"></i></span>
+        <span class="logo__text">mobly</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#dados" class="nav__link">Dados Corporativos</a></li>
+          <li><a href="#atividades" class="nav__link">Atividades</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+          <li><a href="#privacidade" class="nav__link nav__link--highlight">Privacidade</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero__container">
+      <div class="hero__content">
+        <span class="hero__badge"><i class="fa-solid fa-truck-fast"></i> Entrega para todo o Brasil</span>
+        <h1 class="hero__title">Sua casa merece <span class="highlight">móveis que inspiram</span></h1>
+        <p class="hero__text">
+          A Mobly é a sua loja online de móveis e decoração. Sofás, camas, mesas, cadeiras e muito mais — com as melhores marcas, preços competitivos e uma experiência de compra segura.
+        </p>
+        <div class="hero__actions">
+          <a href="#sobre" class="btn btn--primary"><i class="fa-solid fa-arrow-right"></i> Conheça a Mobly</a>
+          <a href="#contato" class="btn btn--outline"><i class="fa-solid fa-headset"></i> Fale Conosco</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card">
+          <i class="fa-solid fa-couch hero__card-icon"></i>
+          <span class="hero__card-label">+10.000 produtos</span>
+        </div>
+        <div class="hero__card hero__card--alt">
+          <i class="fa-solid fa-star hero__card-icon"></i>
+          <span class="hero__card-label">Marcas renomadas</span>
+        </div>
+        <div class="hero__card hero__card--third">
+          <i class="fa-solid fa-shield-halved hero__card-icon"></i>
+          <span class="hero__card-label">Compra segura</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C480,120 960,0 1440,64 L1440,120 L0,120 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag"><i class="fa-solid fa-building"></i> Quem Somos</span>
+        <h2 class="section__title">A Mobly em <span class="highlight">números e história</span></h2>
+        <p class="section__desc">Fundada em 2011, a Mobly nasceu digital e hoje é uma das principais referências em móveis e decoração no Brasil.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-card__icon"><i class="fa-solid fa-calendar-days"></i></div>
+          <h3 class="about-card__title">Desde 2011</h3>
+          <p class="about-card__text">Site lançado em novembro de 2011. Mais de uma década transformando lares brasileiros.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card__icon"><i class="fa-solid fa-store"></i></div>
+          <h3 class="about-card__title">Lojas Físicas</h3>
+          <p class="about-card__text">Megastores, outlets e franquias para você tocar, sentir e se inspirar antes de comprar.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card__icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+          <h3 class="about-card__title">Variedade</h3>
+          <p class="about-card__text">Móveis, decoração, utilidades domésticas, jardim e lazer. Tudo em um só lugar.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card__icon"><i class="fa-solid fa-credit-card"></i></div>
+          <h3 class="about-card__title">Pagamento Facilitado</h3>
+          <p class="about-card__text">Parcele em até 10x sem juros e compre com total segurança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DADOS CORPORATIVOS ===== -->
+  <section class="section section--gray" id="dados">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag"><i class="fa-solid fa-file-contract"></i> Informações Legais</span>
+        <h2 class="section__title">Dados <span class="highlight">Corporativos</span></h2>
+        <p class="section__desc">Transparência e conformidade com a legislação brasileira.</p>
+      </div>
+
+      <div class="data-grid">
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-hashtag"></i> CNPJ</span>
+          <span class="data-item__value">14.055.516/0004-90</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-building"></i> Razão Social</span>
+          <span class="data-item__value">Mobly Comércio Varejista LTDA — em Recuperação Judicial</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-calendar"></i> Data de Abertura</span>
+          <span class="data-item__value">14/08/2014</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-briefcase"></i> Porte</span>
+          <span class="data-item__value">Sem Enquadramento</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-scale-balanced"></i> Natureza Jurídica</span>
+          <span class="data-item__value">Sociedade Empresária Limitada</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-location-dot"></i> Endereço</span>
+          <span class="data-item__value">Rua Vereador Reinaldo Leal de Sousa, 1140 — Galpão G300, Roseira, Cajamar/SP — CEP 07784-500</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-phone"></i> Telefone</span>
+          <span class="data-item__value">(11) 4302-5055</span>
+        </div>
+        <div class="data-item">
+          <span class="data-item__label"><i class="fa-solid fa-envelope"></i> E-mail</span>
+          <span class="data-item__value">controladoria@mobly.com.br</span>
+        </div>
+      </div>
+
+      <h3 class="subsection-title"><i class="fa-solid fa-id-card"></i> Inscrições Estaduais</h3>
+      <div class="ie-grid">
+        <div class="ie-item"><span class="ie-item__uf">SP</span><span class="ie-item__num">241.158.621.118</span></div>
+        <div class="ie-item"><span class="ie-item__uf">MG</span><span class="ie-item__num">002683945.00-82</span></div>
+        <div class="ie-item"><span class="ie-item__uf">PE</span><span class="ie-item__num">0656855-63</span></div>
+        <div class="ie-item"><span class="ie-item__uf">PR</span><span class="ie-item__num">09905690-88</span></div>
+        <div class="ie-item"><span class="ie-item__uf">RS</span><span class="ie-item__num">096/3650947</span></div>
+        <div class="ie-item"><span class="ie-item__uf">RS</span><span class="ie-item__num">900/0023128</span></div>
+        <div class="ie-item"><span class="ie-item__uf">RS</span><span class="ie-item__num">900/0038796</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ATIVIDADES ===== -->
+  <section class="section" id="atividades">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag"><i class="fa-solid fa-list-check"></i> O Que Fazemos</span>
+        <h2 class="section__title">Nossas <span class="highlight">Atividades</span></h2>
+      </div>
+
+      <div class="activities-grid">
+        <div class="activity-card">
+          <div class="activity-card__icon"><i class="fa-solid fa-couch"></i></div>
+          <h3>Comércio Varejista de Móveis</h3>
+          <p>CNAE Principal: 47.54-7-01 — Comércio varejista de móveis.</p>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card__icon"><i class="fa-solid fa-laptop"></i></div>
+          <h3>E-commerce</h3>
+          <p>Venda online com entrega para todo o território nacional e navegação segura.</p>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card__icon"><i class="fa-solid fa-truck"></i></div>
+          <h3>Logística e Distribuição</h3>
+          <p>Estrutura própria de transporte e armazenagem para agilizar sua entrega.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section section--gray" id="contato">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag"><i class="fa-solid fa-headset"></i> Atendimento</span>
+        <h2 class="section__title">Fale com a <span class="highlight">Mobly</span></h2>
+        <p class="section__desc">Estamos prontos para tirar suas dúvidas e ajudar no que precisar.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="tel:+551143025055" class="contact-card">
+          <div class="contact-card__icon"><i class="fa-solid fa-phone-volume"></i></div>
+          <h3>Telefone</h3>
+          <p>(11) 4302-5055</p>
+        </a>
+        <a href="mailto:controladoria@mobly.com.br" class="contact-card">
+          <div class="contact-card__icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+          <h3>E-mail</h3>
+          <p>controladoria@mobly.com.br</p>
+        </a>
+        <div class="contact-card">
+          <div class="contact-card__icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Endereço</h3>
+          <p>Cajamar, São Paulo — SP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POLÍTICAS DE PRIVACIDADE ===== -->
+  <section class="section" id="privacidade">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag"><i class="fa-solid fa-shield-halved"></i> Transparência</span>
+        <h2 class="section__title">Políticas de <span class="highlight">Privacidade</span></h2>
+        <p class="section__desc">Saiba como a Mobly trata seus dados pessoais em conformidade com a LGPD.</p>
+      </div>
+
+      <div class="privacy-accordion" id="privacyAccordion">
+        <!-- Item 1 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-circle-info"></i> 1. Introdução e Compromisso</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>A <strong>Mobly Comércio Varejista LTDA</strong> ("Mobly", "nós" ou "nosso") está comprometida com a proteção da privacidade e dos dados pessoais de seus clientes, visitantes e usuários de suas plataformas digitais. Esta Política de Privacidade descreve como coletamos, utilizamos, armazenamos, compartilhamos e protegemos as informações pessoais que você nos fornece, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD)</strong>, o Marco Civil da Internet (Lei nº 12.965/2014) e demais legislações aplicáveis.</p>
+            <p>Ao navegar em nosso site, cadastrar-se, realizar compras ou interagir com nossos canais de atendimento, você declara ter lido e compreendido esta Política. Caso não concorde com os termos aqui descritos, recomendamos que não utilize nossos serviços.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-database"></i> 2. Dados Pessoais Coletados</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Coletamos apenas os dados necessários para viabilizar a prestação dos nossos serviços, nas seguintes categorias:</p>
+            <ul>
+              <li><strong>Dados de identificação e contato:</strong> nome completo, CPF/CNPJ, e-mail, telefone, endereço de entrega e cobrança.</li>
+              <li><strong>Dados de navegação:</strong> endereço IP, tipo de navegador, dispositivo utilizado, páginas visitadas, data e hora de acesso, cookies e identificadores online.</li>
+              <li><strong>Dados de transações:</strong> histórico de compras, produtos adquiridos, formas de pagamento (não armazenamos números completos de cartão de crédito; esses dados são processados por gateways de pagamento certificados).</li>
+              <li><strong>Dados de atendimento:</strong> registros de interações com nosso SAC, chats, e-mails e reclamações.</li>
+            </ul>
+            <p><strong>Dados sensíveis:</strong> a Mobly não coleta, de forma intencional, dados pessoais sensíveis (origem racial ou étnica, convicção religiosa, opinião política, dados de saúde, vida sexual, dados genéticos ou biométricos) por meio de suas plataformas de varejo.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-bullseye"></i> 3. Finalidades do Tratamento</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Seus dados pessoais são tratados para as seguintes finalidades legítimas:</p>
+            <ul>
+              <li><strong>Execução de contrato:</strong> processar pedidos, emitir notas fiscais, realizar entregas, gerenciar trocas, devoluções e garantias.</li>
+              <li><strong>Atendimento ao cliente:</strong> responder dúvidas, solicitações e reclamações em nossos canais de suporte.</li>
+              <li><strong>Obrigações legais e regulatórias:</strong> cumprir exigências fiscais, contábeis, consumeristas e de prevenção à fraude.</li>
+              <li><strong>Legítimo interesse:</strong> melhorar nossos produtos e serviços, realizar análises estatísticas, personalizar a experiência de navegação e enviar comunicações sobre ofertas (sempre com opção de descadastro).</li>
+              <li><strong>Consentimento:</strong> quando exigido por lei, para envio de comunicações de marketing ou para finalidades específicas devidamente informadas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-share-nodes"></i> 4. Compartilhamento de Dados</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>A Mobly não vende, aluga ou comercializa seus dados pessoais. O compartilhamento ocorre apenas quando necessário para a prestação dos serviços, com parceiros que seguem padrões adequados de proteção de dados, incluindo:</p>
+            <ul>
+              <li><strong>Operadores logísticos e transportadoras:</strong> para viabilizar a entrega dos produtos adquiridos.</li>
+              <li><strong>Gateways de pagamento e instituições financeiras:</strong> para processar transações com segurança e prevenir fraudes.</li>
+              <li><strong>Prestadores de serviços de tecnologia:</strong> provedores de hospedagem, e-mail, analytics e ferramentas de marketing, sob contratos de confidencialidade.</li>
+              <li><strong>Autoridades públicas:</strong> quando exigido por lei, ordem judicial ou para exercício regular de direitos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-lock"></i> 5. Segurança da Informação</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Adotamos medidas técnicas e administrativas para proteger seus dados contra acessos não autorizados, perda, destruição ou alteração. Entre as medidas implementadas, destacam-se:</p>
+            <ul>
+              <li>Criptografia de dados em trânsito por meio de certificado SSL/TLS.</li>
+              <li>Controles de acesso restritos a colaboradores autorizados.</li>
+              <li>Monitoramento contínuo de ambientes e sistemas.</li>
+              <li>Políticas internas de segurança da informação e treinamento de equipes.</li>
+            </ul>
+            <p>Embora empreguemos esforços razoáveis, nenhum sistema é completamente imune a incidentes. Em caso de incidente de segurança que possa acarretar risco relevante aos titulares, comunicaremos os afetados e a Autoridade Nacional de Proteção de Dados (ANPD), conforme previsto na LGPD.</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-user-check"></i> 6. Direitos do Titular</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Nos termos da LGPD, você tem direito a:</p>
+            <ul>
+              <li>Confirmação da existência de tratamento de seus dados.</li>
+              <li>Acesso aos dados pessoais que mantemos sobre você.</li>
+              <li>Correção de dados incompletos, inexatos ou desatualizados.</li>
+              <li>Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos.</li>
+              <li>Portabilidade dos dados a outro fornecedor, mediante requisição expressa.</li>
+              <li>Eliminação dos dados tratados com base no consentimento, ressalvadas as hipóteses legais de retenção.</li>
+              <li>Informação sobre entidades com as quais compartilhamos seus dados.</li>
+              <li>Revogação do consentimento, a qualquer momento.</li>
+            </ul>
+            <p>Para exercer seus direitos, entre em contato pelo e-mail <strong>controladoria@mobly.com.br</strong>. Responderemos em até 15 dias corridos, prorrogáveis mediante justificativa.</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-cookie-bite"></i> 7. Cookies e Tecnologias Similares</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Utilizamos cookies e tecnologias assemelhadas para melhorar sua experiência de navegação, lembrar preferências, analisar o tráfego do site e personalizar conteúdos e ofertas. Os cookies podem ser classificados em:</p>
+            <ul>
+              <li><strong>Essenciais:</strong> necessários para o funcionamento básico do site (carrinho, login, segurança).</li>
+              <li><strong>Analíticos:</strong> ajudam a entender como os usuários interagem com o site (ex.: Google Analytics).</li>
+              <li><strong>Marketing:</strong> utilizados para exibir anúncios relevantes em outras plataformas.</li>
+            </ul>
+            <p>Você pode gerenciar ou desativar cookies nas configurações do seu navegador. A desativação de cookies essenciais pode comprometer o funcionamento de algumas áreas do site.</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-clock-rotate-left"></i> 8. Retenção e Eliminação</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Seus dados serão retidos pelo tempo necessário ao cumprimento das finalidades para as quais foram coletados, observados os prazos legais aplicáveis, especialmente:</p>
+            <ul>
+              <li><strong>Obrigações fiscais e contábeis:</strong> retenção mínima conforme legislação tributária.</li>
+              <li><strong>Exercício regular de direitos:</strong> enquanto perdurar eventual necessidade de defesa em processos administrativos ou judiciais.</li>
+              <li><strong>Atendimento consumerista:</strong> pelo prazo prescricional aplicável às relações de consumo.</li>
+            </ul>
+            <p>Após os prazos de retenção, os dados serão eliminados ou anonimizados de forma segura, salvo hipóteses legais de conservação.</p>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="privacy-item">
+          <button class="privacy-item__header" aria-expanded="false">
+            <span><i class="fa-solid fa-gavel"></i> 9. Disposições Gerais e Contato do Encarregado</span>
+            <i class="fa-solid fa-chevron-down privacy-item__chevron"></i>
+          </button>
+          <div class="privacy-item__body">
+            <p>Esta Política pode ser atualizada periodicamente para refletir mudanças legislativas ou operacionais. A versão vigente estará sempre disponível nesta página, com indicação da data de última atualização.</p>
+            <p>Para dúvidas, solicitações ou exercício de direitos relacionados à proteção de dados, entre em contato com nosso Encarregado de Proteção de Dados (DPO) pelo e-mail <strong>controladoria@mobly.com.br</strong>, ou por correspondência para: Rua Vereador Reinaldo Leal de Sousa, 1140 — Galpão G300, Roseira, Cajamar/SP — CEP 07784-500.</p>
+            <p><em>Última atualização: outubro de 2026.</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--footer">
+          <span class="logo__icon"><i class="fa-solid fa-couch"></i></span>
+          <span class="logo__text">mobly</span>
+        </a>
+        <p class="footer__text">Móveis e decoração para transformar sua casa em um lar com personalidade.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4 class="footer__title">Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre a Mobly</a></li>
+          <li><a href="#dados">Dados Corporativos</a></li>
+          <li><a href="#atividades">Atividades</a></li>
+          <li><a href="#privacidade">Políticas de Privacidade</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4 class="footer__title">Contato</h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> (11) 4302-5055</li>
+          <li><i class="fa-solid fa-envelope"></i> controladoria@mobly.com.br</li>
+          <li><i class="fa-solid fa-location-dot"></i> Cajamar — SP</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Mobly Comércio Varejista LTDA — CNPJ 14.055.516/0004-90. Todos os direitos reservados.</p>
+        <p class="footer__legal">Empresa em Recuperação Judicial. Inscrições Estaduais: SP, MG, PE, PR, RS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
